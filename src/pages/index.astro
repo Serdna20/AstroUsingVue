@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Counter from '../components/Vue/Counter.vue';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<Counter client:load/>
+	</main>	
+</Layout>
